@@ -1,4 +1,4 @@
-name: cards_mireya
+name: cards_mireya_mateo
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^3.14.0
+  cloud_firestore: ^5.6.9
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -56,6 +58,25 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/quilotoa.jpg
+    - assets/ingapirca.jpg
+    - assets/cuenca.jpg
+    - assets/lopez.jpg
+    - assets/cajas.jpg
+    - assets/montanita.jpg
+    - assets/nariz.jpg
+    - assets/villamil.jpg
+    - assets/yasuni.jpg
+    - assets/mitad.jpeg
+    - assets/mindo.jpg
+    - assets/galapagos.jpeg
+    - assets/basilica.jpg
+    - assets/banos.webp
+    - assets/plata.jpg
+
+
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
